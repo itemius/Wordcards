@@ -3,10 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5017830225F59BDF003B8B68 /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5017830125F59BDF003B8B68 /* CardsViewController.swift */; };
+		5017830725F5A189003B8B68 /* ExampleOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5017830625F5A189003B8B68 /* ExampleOverlayView.swift */; };
+		5017831725F5A892003B8B68 /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5017831625F5A892003B8B68 /* CardView.xib */; };
+		5017831C25F5A9A4003B8B68 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5017831B25F5A9A4003B8B68 /* CardView.swift */; };
+		5042B2432620525B00DAEEE2 /* english_german_demo.json in Resources */ = {isa = PBXBuildFile; fileRef = 5042B2412620525B00DAEEE2 /* english_german_demo.json */; };
+		5042B2442620525B00DAEEE2 /* german_english_demo.json in Resources */ = {isa = PBXBuildFile; fileRef = 5042B2422620525B00DAEEE2 /* german_english_demo.json */; };
+		50A343542616092E00B7B1C3 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A343532616092E00B7B1C3 /* Card.swift */; };
+		50A3435C2617400200B7B1C3 /* SimpleOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50A3435B2617400200B7B1C3 /* SimpleOverlay.swift */; };
 		50FF9D6325F594FB00DB388F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FF9D6225F594FB00DB388F /* AppDelegate.swift */; };
 		50FF9D6525F594FB00DB388F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FF9D6425F594FB00DB388F /* SceneDelegate.swift */; };
 		50FF9D6725F594FC00DB388F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FF9D6625F594FC00DB388F /* ViewController.swift */; };
@@ -16,6 +24,9 @@
 		50FF9D7225F594FC00DB388F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50FF9D7025F594FC00DB388F /* LaunchScreen.storyboard */; };
 		50FF9D7D25F594FC00DB388F /* WordcardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FF9D7C25F594FC00DB388F /* WordcardsTests.swift */; };
 		50FF9D8825F594FC00DB388F /* WordcardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FF9D8725F594FC00DB388F /* WordcardsUITests.swift */; };
+		B3210F24422F9DB79203F408 /* Pods_Wordcards.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F00BD33F9B4D9E355D9E051 /* Pods_Wordcards.framework */; };
+		B9BD752D9216D76B2DE83813 /* Pods_WordcardsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 764CD6CE8C4F28EDA887517A /* Pods_WordcardsTests.framework */; };
+		CFCCA36587C42D11DDCA83D1 /* Pods_Wordcards_WordcardsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DE092A8E2E0DAF23D890C22 /* Pods_Wordcards_WordcardsUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +47,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		013394E824694C9E021C2D94 /* Pods-Wordcards.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wordcards.debug.xcconfig"; path = "Target Support Files/Pods-Wordcards/Pods-Wordcards.debug.xcconfig"; sourceTree = "<group>"; };
+		5017830125F59BDF003B8B68 /* CardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
+		5017830625F5A189003B8B68 /* ExampleOverlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleOverlayView.swift; sourceTree = "<group>"; };
+		5017831625F5A892003B8B68 /* CardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardView.xib; sourceTree = "<group>"; };
+		5017831B25F5A9A4003B8B68 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		5042B2412620525B00DAEEE2 /* english_german_demo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = english_german_demo.json; sourceTree = "<group>"; };
+		5042B2422620525B00DAEEE2 /* german_english_demo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = german_english_demo.json; sourceTree = "<group>"; };
+		50A343532616092E00B7B1C3 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		50A3435B2617400200B7B1C3 /* SimpleOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleOverlay.swift; sourceTree = "<group>"; };
 		50FF9D5F25F594FB00DB388F /* Wordcards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wordcards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50FF9D6225F594FB00DB388F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50FF9D6425F594FB00DB388F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +71,14 @@
 		50FF9D8325F594FC00DB388F /* WordcardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordcardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50FF9D8725F594FC00DB388F /* WordcardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordcardsUITests.swift; sourceTree = "<group>"; };
 		50FF9D8925F594FC00DB388F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DE092A8E2E0DAF23D890C22 /* Pods_Wordcards_WordcardsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wordcards_WordcardsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		764CD6CE8C4F28EDA887517A /* Pods_WordcardsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WordcardsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F00BD33F9B4D9E355D9E051 /* Pods_Wordcards.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wordcards.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C80783B8E1627B4EB6ECD6D2 /* Pods-WordcardsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WordcardsTests.release.xcconfig"; path = "Target Support Files/Pods-WordcardsTests/Pods-WordcardsTests.release.xcconfig"; sourceTree = "<group>"; };
+		D114651103117D659A7D47A0 /* Pods-Wordcards-WordcardsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wordcards-WordcardsUITests.debug.xcconfig"; path = "Target Support Files/Pods-Wordcards-WordcardsUITests/Pods-Wordcards-WordcardsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DDA4547FE6CBC03180D0D7C5 /* Pods-Wordcards-WordcardsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wordcards-WordcardsUITests.release.xcconfig"; path = "Target Support Files/Pods-Wordcards-WordcardsUITests/Pods-Wordcards-WordcardsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E008AD89C3B003AF531318F5 /* Pods-Wordcards.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wordcards.release.xcconfig"; path = "Target Support Files/Pods-Wordcards/Pods-Wordcards.release.xcconfig"; sourceTree = "<group>"; };
+		E1C08BDEF8C2C73DD9F615B4 /* Pods-WordcardsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WordcardsTests.debug.xcconfig"; path = "Target Support Files/Pods-WordcardsTests/Pods-WordcardsTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3210F24422F9DB79203F408 /* Pods_Wordcards.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9BD752D9216D76B2DE83813 /* Pods_WordcardsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +102,50 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFCCA36587C42D11DDCA83D1 /* Pods_Wordcards_WordcardsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		50A3434F2616080200B7B1C3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5042B2412620525B00DAEEE2 /* english_german_demo.json */,
+				5042B2422620525B00DAEEE2 /* german_english_demo.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		50A343502616083800B7B1C3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5017831625F5A892003B8B68 /* CardView.xib */,
+				5017831B25F5A9A4003B8B68 /* CardView.swift */,
+				5017830625F5A189003B8B68 /* ExampleOverlayView.swift */,
+				50A3435B2617400200B7B1C3 /* SimpleOverlay.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		50A343512616084B00B7B1C3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				50FF9D6625F594FC00DB388F /* ViewController.swift */,
+				5017830125F59BDF003B8B68 /* CardsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		50A343522616086100B7B1C3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				50A343532616092E00B7B1C3 /* Card.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		50FF9D5625F594FB00DB388F = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +153,8 @@
 				50FF9D7B25F594FC00DB388F /* WordcardsTests */,
 				50FF9D8625F594FC00DB388F /* WordcardsUITests */,
 				50FF9D6025F594FB00DB388F /* Products */,
+				EF1577D4EBDA1CD2B88EE1CE /* Pods */,
+				E33B9AE8FBCFA638D4F34559 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,9 +171,12 @@
 		50FF9D6125F594FB00DB388F /* Wordcards */ = {
 			isa = PBXGroup;
 			children = (
+				50A343522616086100B7B1C3 /* Model */,
+				50A343512616084B00B7B1C3 /* Controller */,
+				50A343502616083800B7B1C3 /* View */,
+				50A3434F2616080200B7B1C3 /* Resources */,
 				50FF9D6225F594FB00DB388F /* AppDelegate.swift */,
 				50FF9D6425F594FB00DB388F /* SceneDelegate.swift */,
-				50FF9D6625F594FC00DB388F /* ViewController.swift */,
 				50FF9D6825F594FC00DB388F /* Main.storyboard */,
 				50FF9D6E25F594FC00DB388F /* Assets.xcassets */,
 				50FF9D7025F594FC00DB388F /* LaunchScreen.storyboard */,
@@ -131,6 +204,29 @@
 			path = WordcardsUITests;
 			sourceTree = "<group>";
 		};
+		E33B9AE8FBCFA638D4F34559 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F00BD33F9B4D9E355D9E051 /* Pods_Wordcards.framework */,
+				6DE092A8E2E0DAF23D890C22 /* Pods_Wordcards_WordcardsUITests.framework */,
+				764CD6CE8C4F28EDA887517A /* Pods_WordcardsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF1577D4EBDA1CD2B88EE1CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				013394E824694C9E021C2D94 /* Pods-Wordcards.debug.xcconfig */,
+				E008AD89C3B003AF531318F5 /* Pods-Wordcards.release.xcconfig */,
+				D114651103117D659A7D47A0 /* Pods-Wordcards-WordcardsUITests.debug.xcconfig */,
+				DDA4547FE6CBC03180D0D7C5 /* Pods-Wordcards-WordcardsUITests.release.xcconfig */,
+				E1C08BDEF8C2C73DD9F615B4 /* Pods-WordcardsTests.debug.xcconfig */,
+				C80783B8E1627B4EB6ECD6D2 /* Pods-WordcardsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +234,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 50FF9D8C25F594FC00DB388F /* Build configuration list for PBXNativeTarget "Wordcards" */;
 			buildPhases = (
+				69046E9C8F5CE174C282788A /* [CP] Check Pods Manifest.lock */,
 				50FF9D5B25F594FB00DB388F /* Sources */,
 				50FF9D5C25F594FB00DB388F /* Frameworks */,
 				50FF9D5D25F594FB00DB388F /* Resources */,
+				9BC1380C2462AB6D390872CF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +253,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 50FF9D8F25F594FC00DB388F /* Build configuration list for PBXNativeTarget "WordcardsTests" */;
 			buildPhases = (
+				CE699D2505B887CDB9CC73ED /* [CP] Check Pods Manifest.lock */,
 				50FF9D7425F594FC00DB388F /* Sources */,
 				50FF9D7525F594FC00DB388F /* Frameworks */,
 				50FF9D7625F594FC00DB388F /* Resources */,
@@ -173,9 +272,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 50FF9D9225F594FC00DB388F /* Build configuration list for PBXNativeTarget "WordcardsUITests" */;
 			buildPhases = (
+				A8D214BB54BEA00448892251 /* [CP] Check Pods Manifest.lock */,
 				50FF9D7F25F594FC00DB388F /* Sources */,
 				50FF9D8025F594FC00DB388F /* Frameworks */,
 				50FF9D8125F594FC00DB388F /* Resources */,
+				31EA4DE711713079FD921841 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -236,7 +337,10 @@
 			files = (
 				50FF9D7225F594FC00DB388F /* LaunchScreen.storyboard in Resources */,
 				50FF9D6F25F594FC00DB388F /* Assets.xcassets in Resources */,
+				5042B2432620525B00DAEEE2 /* english_german_demo.json in Resources */,
+				5017831725F5A892003B8B68 /* CardView.xib in Resources */,
 				50FF9D6A25F594FC00DB388F /* Main.storyboard in Resources */,
+				5042B2442620525B00DAEEE2 /* german_english_demo.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,15 +360,123 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		31EA4DE711713079FD921841 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wordcards-WordcardsUITests/Pods-Wordcards-WordcardsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wordcards-WordcardsUITests/Pods-Wordcards-WordcardsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Wordcards-WordcardsUITests/Pods-Wordcards-WordcardsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69046E9C8F5CE174C282788A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wordcards-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BC1380C2462AB6D390872CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wordcards/Pods-Wordcards-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wordcards/Pods-Wordcards-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Wordcards/Pods-Wordcards-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8D214BB54BEA00448892251 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wordcards-WordcardsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE699D2505B887CDB9CC73ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WordcardsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		50FF9D5B25F594FB00DB388F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50A3435C2617400200B7B1C3 /* SimpleOverlay.swift in Sources */,
+				5017831C25F5A9A4003B8B68 /* CardView.swift in Sources */,
 				50FF9D6725F594FC00DB388F /* ViewController.swift in Sources */,
 				50FF9D6325F594FB00DB388F /* AppDelegate.swift in Sources */,
+				5017830725F5A189003B8B68 /* ExampleOverlayView.swift in Sources */,
+				5017830225F59BDF003B8B68 /* CardsViewController.swift in Sources */,
 				50FF9D6525F594FB00DB388F /* SceneDelegate.swift in Sources */,
 				50FF9D6D25F594FC00DB388F /* Wordcards.xcdatamodeld in Sources */,
+				50A343542616092E00B7B1C3 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,7 +582,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -425,7 +637,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -437,12 +649,14 @@
 		};
 		50FF9D8D25F594FC00DB388F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 013394E824694C9E021C2D94 /* Pods-Wordcards.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JPMCQ7X6AU;
 				INFOPLIST_FILE = Wordcards/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,12 +670,14 @@
 		};
 		50FF9D8E25F594FC00DB388F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E008AD89C3B003AF531318F5 /* Pods-Wordcards.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JPMCQ7X6AU;
 				INFOPLIST_FILE = Wordcards/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -475,13 +691,14 @@
 		};
 		50FF9D9025F594FC00DB388F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1C08BDEF8C2C73DD9F615B4 /* Pods-WordcardsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JPMCQ7X6AU;
 				INFOPLIST_FILE = WordcardsTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -497,13 +714,14 @@
 		};
 		50FF9D9125F594FC00DB388F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C80783B8E1627B4EB6ECD6D2 /* Pods-WordcardsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JPMCQ7X6AU;
 				INFOPLIST_FILE = WordcardsTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -519,11 +737,13 @@
 		};
 		50FF9D9325F594FC00DB388F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D114651103117D659A7D47A0 /* Pods-Wordcards-WordcardsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JPMCQ7X6AU;
 				INFOPLIST_FILE = WordcardsUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -539,11 +759,13 @@
 		};
 		50FF9D9425F594FC00DB388F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDA4547FE6CBC03180D0D7C5 /* Pods-Wordcards-WordcardsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JPMCQ7X6AU;
 				INFOPLIST_FILE = WordcardsUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
